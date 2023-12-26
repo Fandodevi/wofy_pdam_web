@@ -22,10 +22,10 @@
                 <div class="col-8">
                   <div class="numbers">
                     <p class="text-sm mb-0 text-uppercase font-weight-bold">Transaksi</p>
-                    {{-- <a href="{{ route('admin.transaksi') }}">
+                    <a href="{{ route('admin.transaksi') }}">
                     <h5 class="font-weight-bolder">
                       {{$jumlah_transaksi}}
-                    </h5></a> --}}
+                    </h5></a>
                     {{-- <p class="mb-0">
                       <span class="text-success text-sm font-weight-bolder">+55%</span>
                       since yesterday
@@ -51,10 +51,10 @@
                 <div class="col-8">
                   <div class="numbers" >
                     <p class="text-sm mb-0 text-uppercase font-weight-bold">Customers</p>
-                    {{-- <a href="{{ route('admin.PageCustomers') }}">
+                    <a href="{{ route('admin.PageCustomers') }}">
                     <h5 class="font-weight-bolder">
                       {{$jumlah_cust}}
-                    </h5> </a> --}}
+                    </h5> </a>
                     {{-- <p class="mb-0">
                       <span class="text-success text-sm font-weight-bolder">+3%</span>
                       since last week
@@ -78,10 +78,10 @@
                 <div class="col-8">
                   <div class="numbers">
                     <p class="text-sm mb-0 text-uppercase font-weight-bold">Aset</p>
-                    {{-- <a href="{{ route('admin.PageAset') }}">
+                    <a href="{{ route('admin.PageAset') }}">
                     <h5 class="font-weight-bolder">
                       {{$jumlah_aset}}
-                    </h5> </a> --}}
+                    </h5> </a>
                   </div>
                 </div>
                 <div class="col-4 text-end">
